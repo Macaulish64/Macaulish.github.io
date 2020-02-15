@@ -158,12 +158,14 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.prev_next .next {
+.prev_next .next a:link,
+.prev_next .next a:visited {
   text-align: right;
   text-decoration: none;
   color: #808080;
 }
-.prev_next .prev {
+.prev_next .prev a:link,
+.prev_next .prev a:visited {
   text-align: left;
   text-decoration: none;
   color: #808080;
