@@ -212,6 +212,10 @@ body {
   color: #000;
   text-decoration: none;
 }
+.archive .year {
+  padding: 0;
+  padding-bottom: 0.5em;
+}
 /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
