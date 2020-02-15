@@ -164,6 +164,7 @@ body {
   color: #808080;
 }
 .prev_next .prev {
+  text-align: left;
   text-decoration: none;
   color: #808080;
 }
