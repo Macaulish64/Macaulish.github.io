@@ -56,10 +56,26 @@ body {
 }
 .paginator .page-nav {
   padding: 1em;
-  margin: 1em;
+  margin: 10px 0px;
+  float: right;
 }
 .paginator .page-nav a.page-number:link,
 .paginator .page-nav a.page-number:visited {
+  margin: 0px 2px;
+  text-align: right;
+  text-decoration: none;
+  color: #808080;
+}
+.paginator .page-nav a.extend.prev:link,
+.paginator .page-nav a.extend.prev:visited {
+  margin: 0px 2px;
+  text-align: right;
+  text-decoration: none;
+  color: #808080;
+}
+.paginator .page-nav a.extend.next:link,
+.paginator .page-nav a.extend.next:visited {
+  margin: 0px 2px;
   text-align: right;
   text-decoration: none;
   color: #808080;
