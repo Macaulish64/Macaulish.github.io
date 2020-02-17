@@ -172,6 +172,13 @@ body {
   box-sizing: content-box;
   width: 100%;
 }
+.post .post-meta {
+  color: #000;
+  text-align: center;
+}
+.post .post-meta .post-time {
+  margin: 0px 5px;
+}
 @media screen and (max-width: 320px) {
   .post {
     padding: 30px 16px;
@@ -220,6 +227,10 @@ body {
 }
 .posts .post-meta {
   color: #000;
+  text-align: center;
+}
+.posts .post-meta .post-time {
+  margin: 0px 5px;
 }
 .tag {
   padding: 3% 5%;
