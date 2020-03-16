@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MacAulish64</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-02-17T06:41:53.417Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>MacAulish</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试归档</title>
+    <link href="http://yoursite.com/2020/02/17/%E6%B5%8B%E8%AF%95%E5%BD%92%E6%A1%A3/"/>
+    <id>http://yoursite.com/2020/02/17/%E6%B5%8B%E8%AF%95%E5%BD%92%E6%A1%A3/</id>
+    <published>2020-02-17T06:41:24.000Z</published>
+    <updated>2020-02-17T06:41:53.417Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="博客搭建" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="test" scheme="http://yoursite.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开发hexo主题</title>
+    <link href="http://yoursite.com/2020/02/16/%E5%BC%80%E5%8F%91hexo%E4%B8%BB%E9%A2%98/"/>
+    <id>http://yoursite.com/2020/02/16/%E5%BC%80%E5%8F%91hexo%E4%B8%BB%E9%A2%98/</id>
+    <published>2020-02-16T07:01:38.000Z</published>
+    <updated>2020-02-18T04:33:19.769Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文将用来记录进行hexo主题开发的一些姿势。。<br>先记录一些想讲的内容和小的姿势。</p><ol><li>hexo主题开发大致步骤</li><li>hexo的辅助函数</li><li>模板引擎：ejs与pug的简单入门</li><li>url与layout关系</li></ol><p>冷知识<br>由于对前端都是直接上手，需要什么学什么，没有系统得看书学习，所以对一些可能很简单的东西反而不知道，特此记录一下：</p><ul><li>纯html也可以实现页面跳转指定位置。<br>利用跳转时机和埋瞄点。(<del>麻麻我想用html写操作系统</del>)</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;本文将用来记录进行hexo主题开发的一些姿势。。&lt;br&gt;先记录一些想讲的内容和小的姿势。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;hexo主题开发大致步骤&lt;/li&gt;
+&lt;li&gt;hexo的辅助函数&lt;/li&gt;
+&lt;li&gt;模板引擎：ejs与pug的简单入门&lt;/li&gt;
+&lt;li&gt;url与layout关
+      
+    
+    </summary>
+    
+    
+      <category term="博客搭建" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="博客搭建" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/02/06/hello-world/"/>
+    <id>http://yoursite.com/2019/02/06/hello-world/</id>
+    <published>2019-02-06T02:51:30.957Z</published>
+    <updated>2020-02-14T13:24:55.970Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+      <category term="博客搭建" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="博客搭建" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+</feed>
