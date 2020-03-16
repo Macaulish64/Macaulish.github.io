@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-  $(window).scrollTop() > 300 ? $("#totop").addClass("show") : $("#totop").removeClass("show");
+  $(window).scrollTop() > 30 ? $("#totop").addClass("show") : $("#totop").removeClass("show");
 });
 $("#totop").click(function() {
   $("html, body").animate({
